@@ -4,7 +4,7 @@
            $user = "postgres";
            $pass = "11041996kevin";
            $server = "localhost";
-           $db = "pedido";
+           $db = "Pedido";
            $conexion = new PDO("postgres:host = $server;dbname = $db",$user,$pass);
            return $conexion;
         }
